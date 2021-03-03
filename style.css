@@ -1,0 +1,42 @@
+h3 {
+  text-align: center;
+  color: gray;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  height: 170px;
+}
+
+.rating-1:hover {
+  content: "😠";
+  opacity: 1;
+  font-size: 130px;
+  transform: scale(1.2);
+}
+.rating-2:hover {
+  content: "😐";
+  opacity: 1;
+  font-size: 130px;
+  transform: scale(1.2);
+}
+.rating-3:hover {
+  content: "😕";
+  opacity: 1;
+  font-size: 130px;
+  transform: scale(1.2);
+}
+.rating-4:hover {
+  content: "😊";
+  opacity: 1;
+  font-size: 130px;
+  transform: scale(1.2);
+}
+.rating-5:hover {
+  content: "😃";
+  opacity: 1;
+  font-size: 130px;
+  transform: scale(1.2);
+}
